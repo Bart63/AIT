@@ -2,6 +2,7 @@ from typing import Dict, List
 from particle import Particle
 from random import uniform, random
 
+
 class Swarm:
     def __init__(self, params:Dict):
         self.params = params

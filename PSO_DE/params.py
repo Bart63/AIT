@@ -1,6 +1,7 @@
 from typing import Dict, List
 from math import pi, cos
 
+
 params:Dict[str, List] = {
     "repeats": [10],
     "stagnation_limit": [200],

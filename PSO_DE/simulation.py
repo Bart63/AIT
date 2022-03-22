@@ -3,11 +3,10 @@ import matplotlib.pyplot as plt
 from swarm import Swarm
 import params as parameters
 from simstat import SimStat
-from typing import List, Dict, Tuple
+from typing import List, Dict
 from itertools import product
 from DE import DE
 import statistics
-import shutil
 import glob
 import json
 import os

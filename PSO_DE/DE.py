@@ -5,7 +5,6 @@ import random
 # 2. Crossover.
 # 3. Selection.
 
-# Daj też best 
 class DE:
     def __init__(self, pop, d, sf, cp, m, x_range, cf) -> None:
         self.population_size = pop # N
