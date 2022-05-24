@@ -11,7 +11,7 @@ def generate_sigmoid(exponent:float, max_val:float, min_val: float):
 if __name__ == '__main__':
     x = np.linspace(0, 2000, 500)
     exponent = 0.5
-    sigmoid = generate_sigmoid(exponent, 6, 0.8)
+    sigmoid = generate_sigmoid(exponent, 5, 0.2)
 
     y = sigmoid(x)
 

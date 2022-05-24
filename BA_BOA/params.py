@@ -12,18 +12,18 @@ params:Dict[str, List] = {
 
     "algorithm": [
         # Bat Algorithm
-        # {
-        #     "method" : "BA",
-        #     "fmin" : 0, # minimal frequency
-        #     "fmax" : 1, # maximal frequency
-        #     "alpha": 0.9, # constant in (0, 1)
-        #     "gamma": 5, # constant > 0
+        {
+            "method" : "BA",
+            "fmin" : 0, # minimal frequency
+            "fmax" : 1, # maximal frequency
+            "alpha": 0.9, # constant in (0, 1)
+            "gamma": 5, # constant > 0
 
-        #     "use_sigmoid": 1,
-        #     "max_val" : 6,
-        #     "min_val" : 0.8,
-        #     "exponent" : 0.7,
-        # },
+            "use_sigmoid": 1,
+            "max_val" : 6,
+            "min_val" : 0.8,
+            "exponent" : 0.7,
+        },
         # Butterfly Optimization Algorithm
         {
             "method" : "BOA",
